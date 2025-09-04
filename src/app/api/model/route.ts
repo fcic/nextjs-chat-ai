@@ -41,3 +41,4 @@ export async function POST(req: Request) {
     headers.set("Content-Type", "application/json");
     return new Response(stream, { headers });
 }
+export const runtime = 'edge';
