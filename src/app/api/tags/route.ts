@@ -7,3 +7,5 @@ export async function GET(req: Request) {
   );
   return new Response(res.body, res);
 }
+
+export const runtime = 'edge';
